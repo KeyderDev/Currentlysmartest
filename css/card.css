@@ -20,8 +20,6 @@
   border-radius: 5px;
   z-index: 1;
   overflow: hidden;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
 }
 
 .card .card_header 
