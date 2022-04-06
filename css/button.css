@@ -1,0 +1,85 @@
+.boton{
+    
+    position: relative;
+    background-color: #5865f2;   
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 2px;
+    width: 80px;
+    outline: none;
+    border: 4px solid #5a63cd;  
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+        
+}
+
+
+
+.boton:after {
+    
+  content: "";
+  background: #f1f1f1;
+  display: flex;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+      
+}
+
+.boton:active:after {
+    
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+      
+}
+
+.boton2{
+    
+  position: relative;
+  background-color: #5865f2;   
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 2px 2px;
+  width: 200px;
+  outline: none;
+  border: 4px solid #5a63cd;  
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+      
+}
+
+.boton2:after {
+    
+  content: "";
+  background: #f1f1f1;
+  display: flex;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+      
+}
+
+.boton2:active:after {
+    
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+      
+}
+
+

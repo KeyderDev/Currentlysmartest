@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
+
+.nose{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.parrafo{
+    z-index: 1;
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+}
+.parrafo img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}

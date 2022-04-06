@@ -1,0 +1,55 @@
+index:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>AgentCore WebPage</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="imagenes/agentcore_img.png" alt="">
+            <nav>
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Listado de Comandos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">ToS y Licencia</a></li>
+                <li><a href="login.html">Login</a></li>
+
+                
+
+              </ul>
+            </nav>
+         
+
+        </div>
+    </header>
+
+    <div id="contenidos">
+      <div id="centro3">
+        <div id="izquierda">
+          <h3>Bienvenidos a Agent Core WebPage</h3>
+          <p class="descripcion">
+          Bienvenido a la nueva pagina de AgentCore. Esta pagina se encuentra en desarrollo, por lo que pueden haber errores.
+          </p>
+        </div>
+        <div id="derecha"></div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
