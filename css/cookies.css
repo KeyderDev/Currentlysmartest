@@ -65,3 +65,24 @@
 .buttons a{
   color: #2980dd;
 }
+
+
+
+
+
+.cookie-content header{
+  font-size: 25px;
+  font-weight: 600;
+}
+.cookie-content{
+  margin-top: 10px;
+}
+.cookie-content p{
+  color: #858585;
+  margin: 5px 0 20px 0;
+}
+.cookie-content .buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
