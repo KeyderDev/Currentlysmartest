@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" href="css/cookies.css">
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
@@ -219,33 +218,7 @@
 </div>
     
 
-<!---->
-     <div class="wrapper">
-    <img src="https://media.discordapp.net/attachments/934648806937620510/959688131098050560/unknown.png?width=609&height=609" alt="cookie">
-    <div class="cookie-content">
-        <p>Esta pagina usa cookies para darte la mejor experiencia en nuestra web</p>
-      <div class="buttons">
-          <button class="item">Aceptar</button>
-          <a href="#" class="item">Aprender mas</a>
-      </div>
-    </div>
-  </div>
-  <script>
-    const cookieBox = document.querySelector(".wrapper"),
-    acceptBtn = cookieBox.querySelector("button");
-    acceptBtn.onclick = ()=>{
-      document.cookie = "CookieBy=specialcodes; max-age="+60*60*24*30;
-      if(document.cookie){
-        cookieBox.classList.add("hide");
-      }else{
-        alert("¡No se puede configurar la cookie! Desbloquee este sitio desde la configuración de cookies de su navegador.");
-      }
-    }
-    let checkCookie = document.cookie.indexOf("CookieBy=specialcodes");
-    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
-  </script>
-    
-    <!---->
+
 
 
 
