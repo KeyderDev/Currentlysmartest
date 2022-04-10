@@ -5,7 +5,9 @@
 .wrapper{
   position: absolute;
   bottom: 30px;
-  right: 30px;
+  left: 20px;
+  /*left: 30px*/
+  /*right: 30px*/
   max-width: 365px;
   background: #fff;
   padding: 25px 25px 30px 25px;
