@@ -155,3 +155,9 @@ a.selected{
         left: -80px;
     }
 }
+
+/*Cookie Image - cookies.html*/
+img.cookie{
+  width: 100px;
+  height: 100px;
+}
